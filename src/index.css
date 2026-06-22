@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html { scroll-behavior: smooth; }
+body {
+  @apply bg-bg text-slate-100 antialiased;
+  background-image:
+    radial-gradient(circle at top left, rgba(56,189,248,.10), transparent 25%),
+    radial-gradient(circle at top right, rgba(139,92,246,.12), transparent 25%),
+    linear-gradient(180deg,#050816 0%,#070b14 100%);
+}
+.section-shell{@apply rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-md;}
+.chip{@apply rounded-full border border-white/10 bg-white/5 px-3 py-1 text-sm text-slate-300;}
