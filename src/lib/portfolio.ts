@@ -1,35 +1,142 @@
 export const portfolio = {
   name: "Vinay Panchal",
-  title: "Data Analyst • Data Scientist • ML / NLP Enthusiast",
+  title: "Aspiring Data Analyst & Scientist | AI/ML Engineer | RAG Applications",
   email: "vinayp.12601@gmail.com",
   phone: "+91 8291411142",
   location: "Mumbai, India",
+
   github: "vinaypanchal007",
   githubUrl: "https://github.com/vinaypanchal007",
   linkedinUrl: "https://www.linkedin.com/in/vinay-panchal2001/",
-  analystResume: "/VinayPanchal_Data_Analyst.pdf",
-  scientistResume: "/VinayPanchal_Data_Scientist.pdf",
+
+  // Dual resumes
+  analystResume: "/Vinay_Panchal_Analyst.pdf",
+  scientistResume: "/Vinay_Panchal_Scientist.pdf",
+
   profileImage: "/profile-passport.jpg",
+
   heroBlurb:
-    "Data Analytics and AI fresher with hands-on experience in SQL, Power BI, Python, Machine Learning, NLP, and RAG-based projects. I enjoy building dashboards, uncovering business insights, and developing ML solutions that turn raw data into decisions.",
+    "Certified in Data Analytics & Machine Learning with hands-on experience in SQL, Python, Power BI, Machine Learning, NLP, RAG, and dashboard development.",
+
   about:
-    "Certified in Data Analytics and Machine Learning with hands-on work across SQL, Power BI, Python, predictive modeling, NLP and RAG-based systems. I also have a MERN stack background, which helps me turn analysis and ML work into usable products and interfaces.",
+    "Certified in Data Analytics and Machine Learning with experience in building end-to-end ML solutions, Power BI dashboards, SQL analytics, and RAG-based applications. I also have a MERN Stack background that helps me develop complete data-driven applications.",
+
   highlights: [
-    "5th Rank Pan India – National Data Science Hackathon 2026",
-    "PG Course in Data Science with AI – Imarticus Learning",
-    "Full Stack Developer (MERN Stack) – Imarticus Learning"
+    "5th Rank Pan India - National Data Science Hackathon 2026",
+    "PG Course in Data Science with AI - Imarticus Learning",
+    "Full Stack Developer (MERN Stack) - Imarticus Learning"
   ],
-  analystSkills: ["SQL","Power BI","Excel","Pandas","EDA","Dashboard Design","DAX","KPI Analysis","Data Cleaning","Business Insights"],
-  scientistSkills: ["Python","Scikit-learn","Regression","Classification","Clustering","NLP","TF-IDF","Feature Engineering","Model Evaluation","RAG Systems"],
+
+  // Analytics track
   analystProjects: [
-    {name:"Banking Analytics Dashboard",stack:"SQL + Power BI",summary:"Analyzed banking customer, loan and repayment data to identify risk patterns, customer behavior, repayment trends and business KPIs."},
-    {name:"E-Commerce Sales Analysis",stack:"Power BI",summary:"Built interactive dashboards for revenue, profit, order volume, customer segments and product-region trend analysis."},
-    {name:"Employee Performance Prediction",stack:"ML for HR Analytics",summary:"A bridge project that also supports analyst applications because it turns workforce data into decision-ready performance insights."}
+    {
+      name: "Banking Analytics Dashboard",
+      stack: "SQL • Power BI",
+      summary:
+        "Designed interactive dashboards for customer, loan, repayment, and business KPI analysis."
+    },
+    {
+      name: "E-Commerce Sales Analysis",
+      stack: "Power BI",
+      summary:
+        "Created dashboards for revenue, profit, customer segmentation, and sales trend analysis."
+    },
+    {
+      name: "SQL KPI Reporting",
+      stack: "SQL",
+      summary:
+        "Built optimised SQL queries and reporting pipelines for business intelligence and decision-ready reporting."
+    }
   ],
+
+  analystSkills: [
+    "SQL",
+    "Power BI",
+    "EDA",
+    "KPI Reporting",
+    "Data Visualisation",
+    "Business Analysis",
+    "Pandas",
+    "Excel"
+  ],
+
+  // Data Science / ML track
   scientistProjects: [
-    {name:"Fake Job Prediction using RAG",stack:"NLP + ML + RAG",summary:"Built a fake job classifier using TF-IDF and machine learning, handled imbalance with SMOTE, and added a RAG-based explanation layer."},
-    {name:"Employee Performance Prediction",stack:"Machine Learning",summary:"Built a classification model for employee performance prediction with preprocessing, feature engineering and evaluation metrics."},
-    {name:"Analytics + ML Pipeline Work",stack:"Python + ML",summary:"Worked on end-to-end ML workflows including preprocessing, training, evaluation and presenting results through dashboards and apps."}
+    {
+      name: "Fake Job Prediction using RAG",
+      stack: "Python • NLP • RAG",
+      summary:
+        "Built an NLP-based fake job detection system using TF-IDF, SMOTE, Machine Learning, and a RAG explanation layer."
+    },
+    {
+      name: "Employee Performance Prediction",
+      stack: "Machine Learning",
+      summary:
+        "Built a classification model to predict employee performance using feature engineering and model evaluation."
+    },
+    {
+      name: "RAG Application Pipeline",
+      stack: "Python • RAG • LLM",
+      summary:
+        "Developed a Retrieval-Augmented Generation pipeline for document question-answering using vector search and LLM inference."
+    }
+  ],
+
+  scientistSkills: [
+    "Python",
+    "Machine Learning",
+    "NLP",
+    "RAG",
+    "Scikit-learn",
+    "Pandas",
+    "FastAPI",
+    "Git / GitHub",
+    "React",
+    "Node.js"
+  ],
+
+  skills: [
+    "Python",
+    "SQL",
+    "Power BI",
+    "Machine Learning",
+    "NLP",
+    "RAG",
+    "Scikit-learn",
+    "Pandas",
+    "EDA",
+    "FastAPI",
+    "Git",
+    "GitHub",
+    "React",
+    "Node.js"
+  ],
+
+  projects: [
+    {
+      name: "Fake Job Prediction using RAG",
+      stack: "Python • NLP • RAG",
+      summary:
+        "Built an NLP-based fake job detection system using TF-IDF, SMOTE, Machine Learning, and a RAG explanation layer."
+    },
+    {
+      name: "Banking Analytics Dashboard",
+      stack: "SQL • Power BI",
+      summary:
+        "Designed interactive dashboards for customer, loan, repayment, and business KPI analysis."
+    },
+    {
+      name: "Employee Performance Prediction",
+      stack: "Machine Learning",
+      summary:
+        "Built a classification model to predict employee performance using feature engineering and model evaluation."
+    },
+    {
+      name: "E-Commerce Sales Analysis",
+      stack: "Power BI",
+      summary:
+        "Created dashboards for revenue, profit, customer segmentation, and sales trend analysis."
+    }
   ]
 };
 

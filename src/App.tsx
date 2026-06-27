@@ -17,7 +17,7 @@ export default function App() {
           <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr]">
             <div>
               <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-sky-400/20 bg-sky-400/10 px-4 py-2 text-sm text-sky-200">
-                <Sparkles className="h-4 w-4" />Open to Data Analyst + Data Scientist roles
+                <Sparkles className="h-4 w-4" />Open to Data Analytics • AI/ML • Business Intelligence roles
               </div>
               <h1 className="max-w-4xl text-4xl font-black leading-tight tracking-tight sm:text-6xl">
                 {portfolio.name}
@@ -43,7 +43,6 @@ export default function App() {
                 <div className="flex flex-col items-center text-center">
                   <img src={portfolio.profileImage} alt="Vinay Panchal profile" className="h-36 w-36 rounded-3xl border border-white/10 object-cover" />
                   <h2 className="mt-4 text-2xl font-bold">{portfolio.name}</h2>
-                  {/* <p className="mt-1 text-slate-300">{portfolio.title}</p> */}
                   <div className="mt-3 inline-flex items-center gap-2 text-sm text-slate-400"><MapPin className="h-4 w-4" /> {portfolio.location}</div>
                 </div>
 
@@ -118,13 +117,13 @@ export default function App() {
       </section>
 
       <section id="github" className="mx-auto max-w-7xl px-6 py-10">
-        <SectionHeading eyebrow="GitHub" title="Live repositories from GitHub" subtitle="Public non-fork repositories are pulled automatically so you don’t need to manually maintain a project grid." />
+        <SectionHeading eyebrow="GitHub" title="Live repositories from GitHub" subtitle="Public non-fork repositories are pulled automatically so you don't need to manually maintain a project grid." />
         <GithubProjects />
       </section>
 
       <section id="contact" className="mx-auto max-w-7xl px-6 py-10">
         <div className="section-shell p-8 sm:p-10">
-          <SectionHeading eyebrow="Contact" title="Let’s build something useful from the numbers" subtitle={portfolio.about} />
+          <SectionHeading eyebrow="Contact" title="Let's build something useful from the numbers" subtitle={portfolio.about} />
           <div className="flex flex-wrap gap-4">
             <a href={`mailto:${portfolio.email}`} className="chip">{portfolio.email}</a>
             <a href={portfolio.githubUrl} target="_blank" rel="noreferrer" className="chip">GitHub / {portfolio.github}</a>

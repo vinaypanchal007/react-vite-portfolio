@@ -20,7 +20,6 @@ export function Navbar() {
           Vinay Panchal
         </a>
 
-        {/* Desktop nav */}
         <div className="hidden gap-6 md:flex">
           {links.map(([label, href]) => (
             <a
@@ -33,17 +32,14 @@ export function Navbar() {
           ))}
         </div>
 
-        {/* Mobile menu button */}
         <button
           className="inline-flex items-center justify-center rounded-xl border border-white/10 bg-white/5 p-2 text-slate-200 transition hover:bg-white/10 md:hidden"
           onClick={() => setOpen(!open)}
-          aria-label="Toggle menu"
         >
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
       </nav>
 
-      {/* Mobile dropdown */}
       {open && (
         <div className="border-t border-white/10 bg-slate-950/95 px-6 py-4 md:hidden">
           <div className="flex flex-col gap-4">
