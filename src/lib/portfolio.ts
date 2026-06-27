@@ -9,9 +9,7 @@ export const portfolio = {
   githubUrl: "https://github.com/vinaypanchal007",
   linkedinUrl: "https://www.linkedin.com/in/vinay-panchal2001/",
 
-  // Dual resumes
-  analystResume: "/Vinay_Panchal_Analyst.pdf",
-  scientistResume: "/Vinay_Panchal_Scientist.pdf",
+  resume: "/Vinay Panchal.pdf",
 
   profileImage: "/profile-passport.jpg",
 

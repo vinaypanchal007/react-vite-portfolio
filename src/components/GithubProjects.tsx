@@ -32,8 +32,8 @@ export function GithubProjects() {
     loadRepos();
   }, []);
 
-  if (loading) return <div className="section-shell p-8 text-slate-300">Loading GitHub projects...</div>;
-  if (error) return <div className="section-shell p-8 text-slate-300">{error}</div>;
+  if (loading) return <div className="section-shell p-5 sm:p-8 text-slate-300">Loading GitHub projects...</div>;
+  if (error) return <div className="section-shell p-5 sm:p-8 text-slate-300">{error}</div>;
 
   return <div className="grid gap-5 lg:grid-cols-2 xl:grid-cols-3">{repos.map((repo) => <ProjectCard key={repo.id} repo={repo} />)}</div>;
 }
